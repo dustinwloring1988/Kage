@@ -21,6 +21,11 @@ Please follow these instructions to get a copy of Kage running on your local mac
 ### Installing
 You can install Kage binaries from [here](https://github.com/WayzDev/Kage/releases).
 #### for developers
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+sudo apt install yarn
+
 to run the app from source code:
 ```bash
 # Download source code
